@@ -1,179 +1,261 @@
 {
   "main": {
-    "name":"Tess",
-    "occupation":"Student Communication Multimedia Design",
-    "description":"Momenteel ben ik op zoek naar een stageplek",
-   "image":"profilepic.jpg",
+    "name": "Tessa",
+    "occupation": "Student Communication Multimedia Design",
+    "description": "Momenteel ben ik op zoek naar een stageplek",
+    "image": "profilepic.jpg",
+    "bio": "",
     "email": "Tessa@Schijff.nl",
     "phone": "0644878886",
     "address":{
-      "street":"Dadelklaverstraat 4",
-      "city":"Almere",
+      "street": "Dadelklaverstraat 4",
+      "city": "Almere",
       "zip": "1314 PX"
-    },
-    "social":[
-      {
-        "name":"linkedin",
-        "url":"http://linkedin.com/in/patryk-kurzeja-design",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/patraspan",
-        "className":"fa fa-github"
-      }
-    ]
+    }
   },
   "resume":{
     "education":[
       {
-        "school":"Hogeschool van Amasterdam",
-        "opleiding":"Communication & Multimedia Design",
-        "niveau":"HBO",
-        "afgestudeerd":"nog bezig",
-        "over":"Een divers vakkenaanbod om een allround mediavormgever te worden. Van programmeren tot gedragsbeïnvloeding, toegankelijkheid, AR & vormgeving."
+        "school": "Hogeschool van Amsterdam",
+        "opleiding": "Communication & Multimedia Design",
+        "niveau": "HBO",
+        "afgestudeerd": false,
+        "afgestudeerdDatum": "nog bezig",
+        "over": "Een divers vakkenaanbod om een allround mediavormgever te worden. Van programmeren tot gedragsbeïnvloeding, toegankelijkheid, AR & vormgeving."
       },
       {
-        "school":"ROC van Amsterdam",
-        "opleiding":"(Print)media Vormgever",
-        "niveau":"MBO-4",
-        "afgestudeerd":"februari 2013",
-        "over":""
+        "school": "ROC van Amsterdam",
+        "opleiding": "(Print)media Vormgever",
+        "niveau": "MBO-4",
+        "afgestudeerd": true,
+        "afgestudeerdDatum": "februari 2013",
+        "over": null
       },
       {
-        "school":"",
-        "opleiding":"",
-        "niveau":"",
-        "afgestudeerd":"",
-        "over":""
+        "school": "Nimeto Utrecht",
+        "opleiding": "Vormgever Reclame presentatie & Communicatie",
+        "niveau": "MBO-4",
+        "afgestudeerd":false,
+        "afgestudeerdDatum": null,
+        "over": null
       }
     ],
     "work":[
       {
-        "company":"GTK biuro projektowe",
-        "title":"Construction Designer - Assistant",
-        "years":"November 2017 - Present",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "company": "Witbaard Feestartikelen",
+        "title": "Grafisch vormgever",
+        "years": "Maart 2017 - Februari 2018",
+        "description": "Bij deze groothandel zorgde ik dat de webshop (+10.000 artikelen) gevuld werd met de juiste productafbeeldingen. Ontwerpen van brochures, verpakkingen en nieuwsbrieven. Verder deed ik ook de productfotografie."
       },
       {
-        "company":"Cadin",
-        "title":"Construction Designer - Assistant",
-        "years":"March 2016 - October 2017",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "company": "Tesu Design",
+        "title": "Eigenaar / Grafisch vormgever",
+        "years": "Juni 2013 - Februari 2019",
+        "description": "Als ZZP'er ontwierp ik huisstijlen, websites en drukwerk voor diverse opdrachtgevers." 
+      },
+      {
+        "company": "Staples Office Centre",
+        "title": "Grafisch vormgever / Copy & Print Specialist",
+        "years": "Apr 2013 - Sept 2013",
+        "description": "Ontwerpen maken voor klanten & demonstratie-modellen en vervolgens productie-klaar maken."
+      },
+      {
+        "company": "Smashing Prints",
+        "title": "Stagiaire Grafisch Vormgever",
+        "years": "Okt 2011 - Jan 2012",
+        "description": "Grafisch ontwerp en orderbegeleiding. (Digitaal en telefonisch)."
       }
     ],
     "skills":[
       {
-        "name":"Adobe Photoshop",
-        "level":"44%"
+        "name": "Figma",
+        "level": "85%"
       },
       {
-        "name":"Affinity Designer",
-        "level":"38%"
+        "name": "Adobe XD",
+        "level": "60%"
       },
       {
-        "name":"HTML5",
-        "level":"85%"
+        "name": "HTML 5",
+        "level": "60%"
       },
       {
-        "name":"CSS",
-        "level":"81%"
+        "name": "CSS",
+        "level": "50%"
       },
       {
-        "name":"jQuery",
-        "level":"60%"
+        "name": "Javascript",
+        "level": "30%"
       },
       {
-        "name":"REACT",
-        "level":"50%"
+        "name": "REACT",
+        "level": "30%"
       }
     ]
   },
   "portfolio":{
+    "projecten": [
+      {
+          "schoolvak": "Content Delivery",
+          "categorie": "Information design",
+          "meta" : [{
+                  "titel":"Data verwerken",
+                  "leerjaar": 2,
+                  "opleverdatum": "Januari 2021",
+                  "tools": ["Figma", "XD"],
+                  "tags": ["Dataverwerking"]
+                  }],
+          "opdracht":[{
+                  "uitleg":"Vergaar data over de studentenspreiding en naleving van coronaregels. Zet deze data ook in om het gedrag van de studenten te beinvloeden.",
+                  "overOpdracht": null,
+                  "resultaat":"In Januari 2021 tussen de lockdowns van de hogescholen in kregen wij deze opdracht. We hebben eerst gebrainstormd over welke data we konden verzamelen. Daarna zijn we na gaan denken hoe wij deze informatie allemaal konden inzetten."
+                  }],
+          "image":"contentdelivery.png",
+          "url": null,
+          "modal":"modal-01"
+      },
+      {
+          "schoolvak":"Project Plastic",
+          "categorie":"UX/UI design, Gedragsverandering",
+          "meta" : [{
+                  "titel":"Gedragsverandering voor schonere oceanen",
+                  "leerjaar": 1,
+                  "opleverdatum":"nog lopend",
+                  "tools": ["Figma"],
+                  "tags": ["interaction"]
+                  }],
+          "opdracht":[{
+                  "uitleg": null,
+                  "overOpdracht": null,
+                  "resultaat": null
+                  }],
+          "image":"projectplastic.png",
+          "url": null,
+          "modal":"modal-02"
+      },
+      {
+          "schoolvak":"Vormgeving",
+          "categorie": null,
+          "meta" : [{
+                  "titel":"Artistiek zoals Juan Gris",
+                  "leerjaar": 1,
+                  "opleverdatum" : null,
+                  "tools": ["Illustrator"],
+                  "tags": ["Grafisch ontwerp"]
+                  }],
+          "opdracht":[{
+                  "uitleg": null,
+                  "overOpdracht": null,
+                  "resultaat": null
+                  }],
+          "image":"vormgeving.png",
+          "url": null,
+          "modal":"modal-03"
+      },
+      {
+          "schoolvak":"Internetstandaarden",
+          "categorie": null,
+          "meta" : [{
+                  "titel":"Semantiek & Flexboxen",
+                  "leerjaar": 1,
+                  "opleverdatum" : null,
+                  "tools": ["HTML", "CSS"],
+                  "tags": ["Code,","Web Design"]
+                  }],
+          "opdracht":[{
+                  "uitleg":"Bouw een website met meerdere pagina's. Gebruik hiervoor HTML / CSS en doe dit semantisch correct volgens de W3C-standaard.",
+                  "overOpdracht": null,
+                  "resultaat":"Ik ben aan de slag gegaan met media-queries en flexbox"
+                  }],
+          "image":"programmeren.png",
+          "url": null,
+          "modal":"modal-04"
+      }
+  ],
     "projects": [
       {
-        "title":"Coffee Cup",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustrator",
-        "tags":"Branding, Web Design",
-        "image":"coffee.jpg",
-        "url":"http://port1.com",
-        "modal":"modal-01"
+        "title": "Coffee Cup",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Illustrator",
+        "tags": "Branding, Web Design",
+        "image": "coffee.jpg",
+        "url": "http://port1.com",
+        "modal": "modal-01"
       },
       {
-        "title":"Console",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Design",
-        "tags":"Branding, Web Development",
-        "image":"console.jpg",
-        "url":"http://port2.com",
-        "modal":"modal-02"
+        "title": "Console",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Web Design",
+        "tags": "Branding, Web Development",
+        "image": "console.jpg",
+        "url": "http://port2.com",
+        "modal": "modal-02"
       },
       {
-        "title":"Judah",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Branding, Web Programming",
-        "image":"judah.jpg",
-        "url":"http://port3.com",
-        "modal":"modal-03"
+        "title": "Judah",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Web Development",
+        "tags": "Branding, Web Programming",
+        "image": "judah.jpg",
+        "url": "http://port3.com",
+        "modal": "modal-03"
       },
       {
-        "title":"Into The Light",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Design",
-        "image":"into-the-light.jpg",
-        "url":"http://port4.com",
-        "modal":"modal-04"
+        "title": "Into The Light",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Photography",
+        "tags": "Photography, Design",
+        "image": "into-the-light.jpg",
+        "url": "http://port4.com",
+        "modal": "modal-04"
       },
       {
-        "title":"Farmer Boy",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Branding",
-        "tags":"Branding, Web Design",
-        "image":"farmerboy.jpg",
-        "url":"http://port5.com",
-        "modal":"modal-05"
+        "title": "Farmer Boy",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Branding",
+        "tags": "Branding, Web Design",
+        "image": "farmerboy.jpg",
+        "url": "http://port5.com",
+        "modal": "modal-05"
       },
       {
-        "title":"Girl",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Graphic Design",
-        "image":"girl.jpg",
-        "url":"http://port6.com",
-        "modal":"modal-06"
+        "title": "Girl",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Photography",
+        "tags": "Photography, Graphic Design",
+        "image": "girl.jpg",
+        "url": "http://port6.com",
+        "modal": "modal-06"
       },
       {
-        "title":"Origami",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustration",
-        "tags":"Branding, Illustration",
-        "image":"origami.jpg",
-        "url":"http://port7.com",
-        "modal":"modal-07"
+        "title": "Origami",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Illustration",
+        "tags": "Branding, Illustration",
+        "image": "origami.jpg",
+        "url": "http://port7.com",
+        "modal": "modal-07"
       },
       {
-        "title":"Retrocam",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Photography",
-        "image":"retrocam.jpg",
-        "url":"http://port8.com",
-        "modal":"modal-08"
+        "title": "Retrocam",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Web Development",
+        "tags": "Photography",
+        "image": "retrocam.jpg",
+        "url": "http://port8.com",
+        "modal": "modal-08"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "user":"John Doe"
+        "text": "Mensen omschrijven mij als een energieke, ietwat perfectionistische team-player. Studiegenoten kloppen graag bij mij aan voor kritische feedback. Ik ben leergierig en wil dingen graag tot in de kern begrijpen. ",
+        "user": null
       },
       {
-        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "user":"Steve Smith"
+        "text": "Als multimedia designer interesseer ik mij bijzonder in toegankelijkheid en data(verwerking). Ook vind ik het heel leuk om te tekenen, dit doe ik graag om een concept uit te leggen of complexe materie overzichtelijk en visueel te maken.",
+        "user": null
       }
     ]
   }
