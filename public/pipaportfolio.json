@@ -1,0 +1,82 @@
+{
+    "pipaportfolio": {
+        "projecten": [
+            {
+                "schoolvak": "Content Delivery",
+                "categorie": "Information design",
+                "meta" : [{
+                        "titel":"Data verwerken",
+                        "leerjaar": 2,
+                        "opleverdatum": "Januari 2021",
+                        "tools": ["Figma", "XD"],
+                        "tags": ["Dataverwerking"]
+                        }],
+                "opdracht":[{
+                        "uitleg":"Vergaar data over de studentenspreiding en naleving van coronaregels. Zet deze data ook in om het gedrag van de studenten te beinvloeden.",
+                        "overOpdracht": null,
+                        "resultaat":"In Januari 2021 tussen de lockdowns van de hogescholen in kregen wij deze opdracht. We hebben eerst gebrainstormd over welke data we konden verzamelen. Daarna zijn we na gaan denken hoe wij deze informatie allemaal konden inzetten."
+                        }],
+                "image":"contentdelivery.png",
+                "url": null,
+                "modal":"modal-01"
+            },
+            {
+                "schoolvak":"Project Plastic",
+                "categorie":"UX/UI design, Gedragsverandering",
+                "meta" : [{
+                        "titel":"Gedragsverandering voor schonere oceanen",
+                        "leerjaar": 1,
+                        "opleverdatum":"nog lopend",
+                        "tools": ["Figma"],
+                        "tags": ["interaction"]
+                        }],
+                "opdracht":[{
+                        "uitleg": null,
+                        "overOpdracht": null,
+                        "resultaat": null
+                        }],
+                "image":"projectplastic.png",
+                "url": null,
+                "modal":"modal-02"
+            },
+            {
+                "schoolvak":"Vormgeving",
+                "categorie": null,
+                "meta" : [{
+                        "titel":"Artistiek zoals Juan Gris",
+                        "leerjaar": 1,
+                        "opleverdatum" : null,
+                        "tools": ["Illustrator"],
+                        "tags": ["Grafisch ontwerp"]
+                        }],
+                "opdracht":[{
+                        "uitleg": null,
+                        "overOpdracht": null,
+                        "resultaat": null
+                        }],
+                "image":"vormgeving.png",
+                "url": null,
+                "modal":"modal-03"
+            },
+            {
+                "schoolvak":"Internetstandaarden",
+                "categorie": null,
+                "meta" : [{
+                        "titel":"Semantiek & Flexboxen",
+                        "leerjaar": 1,
+                        "opleverdatum" : null,
+                        "tools": ["HTML", "CSS"],
+                        "tags": ["Code,","Web Design"]
+                        }],
+                "opdracht":[{
+                        "uitleg":"Bouw een website met meerdere pagina's. Gebruik hiervoor HTML / CSS en doe dit semantisch correct volgens de W3C-standaard.",
+                        "overOpdracht": null,
+                        "resultaat":"Ik ben aan de slag gegaan met media-queries en flexbox"
+                        }],
+                "image":"programmeren.png",
+                "url": null,
+                "modal":"modal-04"
+            }
+        ]
+    }
+}

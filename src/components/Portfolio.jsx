@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import {Modal, ModalBody, Button, ModalHeader, ModalFooter} from 'reactstrap';
 
 class Portfolio extends Component {
+  toggle() {
+    alert('test');
+  }
   render() {
     if (this.props.data) {
         var portfolio = this.props.data.projects.map((project) => {
@@ -45,7 +48,7 @@ class Portfolio extends Component {
            
             {/* MODALs-------------------------------------------------------------- */}
   
-           {/* <div id="modal-01" className="popup-modal mfp-hide">
+           <div id="modal-01" className="popup-modal mfp-hide">
   
                 <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
   
@@ -181,7 +184,7 @@ class Portfolio extends Component {
             </div>
   
         
-   */}
+  
    </div> 
      </section>
     );

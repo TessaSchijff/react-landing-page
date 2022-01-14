@@ -7,10 +7,7 @@ class Header extends Component {
             var name = this.props.data.name,
                 occupation = this.props.data.occupation,
                 description = this.props.data.description,
-                city = this.props.data.address.city,
-                networks = this.props.data.social.map((network) => {
-                return <li key={network.name} ><a  href={network.url} target="_blank"><i className={network.className}></i></a></li>
-            });
+                city = this.props.data.address.city;
         }
         return (
             <div>
@@ -32,14 +29,10 @@ class Header extends Component {
                      
                     </nav> 
                     
-                <div className="row banner">
+                    <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">I'm {name}.</h1>
-                            <h3>I'm a {city} based <span>{occupation}</span> {description}.</h3>
-                            <hr />
-                            <ul className="social">
-                            {networks}
-                            </ul>
+                            <h1 className="responsive-headline">Hoi, ik ben {name}.</h1>
+                            <h2>Ik studeer Communication en Multimedia Design aan de Hogeschool van Amsterdam en ben op zoek naar een stage</h2>
                         </div>
                     </div>
 

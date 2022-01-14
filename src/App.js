@@ -42,7 +42,9 @@ class App extends Component {
   }
   getResumeData(){
     $.ajax({
-      url: 'https://tessaschijff.github.io/react-landing-page/resumeData.json',
+      url: 'https://tessaschijff.github.io/portfolio/resumeData.json',
+      //url: 'https://raw.githubusercontent.com/TessaSchijff/portfolio/master/public/resumeData.json',
+      //url: 'https://tessaschijff.github.io/react-landing-page/resumeData.json',
       // url: 'http://localhost:3000/resumeData.json',
       dataType: 'json',
       cache: false,
