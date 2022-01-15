@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import './App.css';
-import About from "./components/About";
-import Contact from "./components//contact/Contact";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
+import About from "./components/About";
+import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
-import Resume from "./components/Resume";
+import Contact from "./components//contact/Contact";
+import Footer from "./components/Footer";
 import axios from 'axios';
 
 class App extends Component {
